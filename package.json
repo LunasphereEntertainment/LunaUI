@@ -1,0 +1,12 @@
+{
+  "name": "luna-ui",
+  "version": "1.0.0",
+  "description": "The LunaSphere UI CSS kit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["UI", "CSS", "Webkit", "Modern", "Space", "Sleek"],
+  "author": "Lunasphere: Entertainment",
+  "license": "UNLICENSED"
+}

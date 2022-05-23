@@ -1,0 +1,43 @@
+div.progress {
+    background: var(--luna-dark-3);
+    height: 18px;
+    box-shadow: -1px 1px 3px 2px var(--luna-dark-2);
+    overflow: hidden;
+
+    margin: 15px 5px;
+}
+
+div.progress > div.progress-fill {
+    transition: width .35s;
+    height: 100%;
+    background: var(--luna-light-bg);
+}
+
+div.progress-content {
+    height: 18px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.progress-content > .readout {
+    display: flex;
+    color: var(--luna-light-accent);
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+.readout > p {
+    margin: 2px 2px 0 2px;
+}
+
+.progress-content > .progress {
+    min-height: 8px;
+    width: 100%;
+
+    align-self: flex-start;
+    margin-top: 5px;
+}
