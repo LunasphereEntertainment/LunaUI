@@ -1,0 +1,42 @@
+section, .section {
+  background: $luna-dark-2;
+
+  border: 1px solid $luna-dark-1; box-shadow: 3px 3px 1px 10px solid $luna-dark-1;
+
+  //margin: 5px 8px; padding: 10px 15px;
+  margin: 5px 8px; padding: 0;
+
+  > .title {
+    background: $luna-primary-1;
+    color: $luna-light;
+
+    font-size: 9pt;
+    height: 15px;
+
+    //margin: -5px -8px;
+    margin: 0;
+    padding: 0 4px 0 4px;
+    border-radius: 0;
+
+    transition: background-color .25s;
+
+    &:hover {
+      background: $luna-primary-2;
+      cursor: pointer;
+    }
+  }
+
+  > .content {
+    margin: 10px 15px;
+  }
+
+  >.footer {
+    border-top: 1px solid gray;
+
+    //margin: 10px 18px;
+    margin: 10px 2px 5px 2px;
+    padding: 5px 10px;
+
+    font-size: .8em !important;
+  }
+}

@@ -1,0 +1,23 @@
+div.list-group {
+    background: $luna-dark-2;
+    border: 1px solid $luna-dark-3;
+    color: $luna-light;
+    cursor: pointer;
+    border-radius: 2px;
+
+    .list-group-item {
+        min-height: 30px;
+        padding: 8px 8px;
+
+        transition: border-left-width .35s;
+
+        &:hover {
+            background-color: $luna-dark-3;
+        }
+
+        &.active {
+            border-left: 4px solid $luna-primary-1;
+            background-color: $luna-light-bg;
+        }
+    }
+}

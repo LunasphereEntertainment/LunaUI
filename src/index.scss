@@ -1,0 +1,62 @@
+@import "colours";
+
+@font-face {
+    font-family: NovaSquare;
+    src: url("../webfonts/NovaSquare.ttf");
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+
+    font-family: NovaSquare;
+    /*font-size: 14pt;*/
+}
+
+body {
+    /*background: linear-gradient($luna-dark-1 20%, $luna-dark-2) no-repeat;*/
+    background: $luna-dark-1;
+    background-size: cover;
+    overflow-x: hidden;
+
+    color: $luna-light;
+}
+
+div {
+    border-radius: 2px;
+}
+
+h1, h2, h3 {
+    color: $luna-light;
+}
+
+h3 {
+    text-shadow: 1px -1px 2px $luna-light;
+}
+
+p {
+    text-shadow: 1px -1px 1px $luna-light-accent;
+}
+
+h1 {
+    text-transform: uppercase;
+    /*color: $luna-light-accent;*/
+}
+
+a {
+    color: $luna-warning-2;
+    text-shadow: 0 0;
+    font-size: 9pt;
+}
+
+a:visited {
+    color: $luna-light-accent;
+}
+
+@import "util";
+@import "buttons";
+@import "progressbar";
+@import "lists";
+@import "forms";
+@import "section";

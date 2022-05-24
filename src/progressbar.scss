@@ -1,16 +1,25 @@
 div.progress {
-    background: var(--luna-dark-3);
-    height: 18px;
-    box-shadow: -1px 1px 3px 2px var(--luna-dark-2);
+    background: $luna-dark-2;
+    box-shadow: -1px 1px 3px 2px $luna-dark-2;
+
+    height: 15px;
+    margin: 15px 5px;
+
+    border: 1px solid rgba(100, 100, 100, 0.4);
+    border-radius: 10px 2px 25px 10px;
     overflow: hidden;
 
-    margin: 15px 5px;
+    transition: border-right-color .25s, border-left-color .25s, border-top-color .25s, border-bottom-color .25s;
+}
+
+div.progress:hover {
+    border-color: rgba(150, 150, 150, 0.6);
 }
 
 div.progress > div.progress-fill {
     transition: width .35s;
     height: 100%;
-    background: var(--luna-light-bg);
+    background: $luna-light-bg;
 }
 
 div.progress-content {
@@ -22,12 +31,14 @@ div.progress-content {
 
 .progress-content > .readout {
     display: flex;
-    color: var(--luna-light-accent);
+    color: $luna-light-accent;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
     font-weight: bold;
     font-size: 10pt;
+    /*text-shadow: 1px -1px 1px $luna-light-accent;*/
+    text-shadow: 0 0;
 }
 
 .readout > p {

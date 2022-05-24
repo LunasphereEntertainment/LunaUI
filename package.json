@@ -6,7 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["UI", "CSS", "Webkit", "Modern", "Space", "Sleek"],
+  "keywords": [
+    "UI",
+    "CSS",
+    "Webkit",
+    "Modern",
+    "Space",
+    "Sleek"
+  ],
   "author": "Lunasphere: Entertainment",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.52.1"
+  }
 }

@@ -1,0 +1,108 @@
+div.form-container {
+    border: 1px solid $luna-dark-1;
+    box-shadow: 3px 3px 1px 10px solid $luna-dark-1;
+    background: $luna-dark-2;
+    margin: 5px 8px;
+    padding: 10px 15px;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="number"] {
+    border: 1px solid transparent;
+
+    width: calc(100% - 25px);
+
+    margin: 12px 2px; padding: 8px 10px;
+
+    font-size: 10pt; font-family: NovaSquare;
+
+    background: $luna-dark-1; color: $luna-light;
+
+    transition: background-color .5s, padding-top .25s, padding-bottom .25s;
+
+    &:focus, &:active {
+        background: $luna-dark-2;
+
+        padding: 10px 10px;
+
+        outline: 1px solid $luna-primary-1;
+    }
+
+
+    &::placeholder {
+        color: $luna-dark-3;
+    }
+
+    &:invalid, &.invalid, &.error {
+        border: 1px solid $luna-danger-2;
+    }
+
+    &.success, &.valid {
+        outline: 1px solid $luna-success-2;
+    }
+}
+
+div.form-check {
+    input[type="checkbox"] {
+        appearance: none;
+
+        width: 1.25em;
+        height: 1.25em;
+
+        transform: translateY(.25em);
+
+        display: inline-block;
+
+        background: transparent;
+
+        transition: background-color .5s;
+
+        border: 1px solid $luna-light;
+
+        color: $luna-light;
+
+        border-radius: 2px;
+
+        //display: grid;
+        //place-content: center;
+        text-align: center;
+        margin: 2px;
+
+        /*&:before {
+            content: '';
+        }*/
+
+        &:checked {
+            background: $luna-primary-1;
+
+            /*&:before {
+                content: '✓'
+            }*/
+        }
+    }
+
+    label {
+        display: inline-block;
+    }
+}
+
+div.form-group {
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+
+    //margin: 0; padding: 0;
+
+    > input {
+        flex-grow: 1;
+        margin: 0;
+    }
+
+    > .form-group-append {
+        align-self: stretch;
+
+        display: grid;
+        place-items: center;
+
+        padding: 0 6px;
+    }
+}
