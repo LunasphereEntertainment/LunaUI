@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  padding: 2px;
+
+  margin: 2px 10px 8px -20px;
+  //margin: 0 10px 8px -8px;
+
+  background-color: $luna-dark-2;
+
+  transform: skew(-25deg);
+
+  overflow: hidden;
+}
+
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-item {
+  padding: 20px 30px;
+  margin: 0 8px;
+  text-align: center;
+
+  transition: .35s;
+  cursor: pointer;
+
+  align-self: center;
+
+  color: $luna-light;
+
+  &:hover {
+    background-color: $luna-dark-1;
+    transform: scale(1.1);
+  }
+
+  &.active {
+    transform: scale(1.1);
+    color: $luna-primary-3;
+    background-color: $luna-dark-3;
+
+  }
+
+  > .nav-link {
+    display: inline-block;
+    transform: skewX(25deg);
+
+    color: inherit;
+
+    font-size: 1.1em;
+  }
+}
+
+.nav-logo {
+  padding-left: 40px; padding-right: 40px;
+  margin: 0 5px;
+
+  &:hover {
+    //background-color: $luna-dark-1;
+    text-decoration: none;
+  }
+}
+

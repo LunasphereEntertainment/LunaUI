@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: NovaSquare;
-    src: url("../webfonts/NovaSquare.ttf");
+    src: url("../../webfonts/NovaSquare.ttf");
 }
 
 html, body {
@@ -21,6 +21,8 @@ body {
     overflow-x: hidden;
 
     color: $luna-light;
+
+    margin-top: 0;
 }
 
 div {
@@ -60,3 +62,4 @@ a:visited {
 @import "lists";
 @import "forms";
 @import "section";
+@import "navigation";

@@ -1,7 +1,7 @@
 {
   "name": "luna-ui",
   "version": "1.0.0",
-  "description": "The LunaSphere UI CSS kit.",
+  "description": "The LunaSphere UI CSS and WebComponent Library.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,17 +10,21 @@
     "UI",
     "CSS",
     "Webkit",
-    "Modern",
-    "Space",
-    "Sleek"
+    "Space Theme",
+    "Dark Mode Friendly",
+    "Glow Effect",
+    "Visual"
   ],
   "author": "Lunasphere: Entertainment",
   "license": "UNLICENSED",
   "devDependencies": {
+    "glob-parent": "^6.0.2",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^5.1.0",
-    "sass": "^1.52.1"
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "sass": "^1.52.1",
+    "typescript": "^4.7.2"
   }
 }
