@@ -6,7 +6,7 @@ section, .section {
   //margin: 5px 8px; padding: 10px 15px;
   margin: 5px 8px; padding: 0;
 
-  > .title {
+  > .title, .header {
     background: $luna-primary-1;
     color: $luna-light;
 
