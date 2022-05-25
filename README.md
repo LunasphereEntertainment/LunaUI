@@ -8,7 +8,7 @@ UI Styles and/or Webcomponents for use on the LunaSphere Landing Page & Future P
 The navigation system is currently relatively simple, but more may be added later. A "logo" element can be added at any point which receives almost double the padding to the other navigation items.
 
 **Preview:**
-<img src="examples/screenshots/navbar.png">
+<img src="https://raw.githubusercontent.com/LunasphereEntertainment/LunaUI/main/examples/screenshots/navbar.png">
 
 **Source:**
 ```html
@@ -51,7 +51,7 @@ Almost all text receives a small text shadow to give it that subtle glow effect!
 
 **Preview:**
 
-<img src="examples/screenshots/headers.png">
+<img src="https://raw.githubusercontent.com/LunasphereEntertainment/LunaUI/main/examples/screenshots/headers.png">
 
 **Source:**
 ```html
@@ -69,7 +69,7 @@ All "btn btn-xxx" items will receive a box shadow as well as the standard text e
 
 **Preview:**
 
-<img src="examples/screenshots/buttons.png">
+<img src="https://raw.githubusercontent.com/LunasphereEntertainment/LunaUI/main/examples/screenshots/buttons.png">
 
 **Source:** 
 ```html
@@ -86,7 +86,7 @@ Progress bars are currently just fancy styled divs. There is no JavaScript code 
 
 **Preview:**
 
-<img src="examples/screenshots/progressbars.png">
+<img src="https://raw.githubusercontent.com/LunasphereEntertainment/LunaUI/main/examples/screenshots/progressbars.png">
 
 **Source:**
 ```html
@@ -118,7 +118,7 @@ List groups are again styled divs, and do not have any functional components yet
 
 **Preview:**
 
-<img src="examples/screenshots/listgroup.png">
+<img src="https://raw.githubusercontent.com/LunasphereEntertainment/LunaUI/main/examples/screenshots/listgroup.png">
 
 **Source:**
 ```html
@@ -140,7 +140,7 @@ Styling is also supported on checkbox fields with specially styled boxes to repr
 
 **Preview:**
 
-<img src="examples/screenshots/forms.png">
+<img src="https://raw.githubusercontent.com/LunasphereEntertainment/LunaUI/main/examples/screenshots/forms.png">
 
 **Source:**
 ```html
@@ -177,7 +177,7 @@ Sections work similar to bootstrap cards. They're inspired a little like modern 
 
 **Preview:**
 
-<img src="examples/screenshots/sections.png">
+<img src="https://raw.githubusercontent.com/LunasphereEntertainment/LunaUI/main/examples/screenshots/sections.png">
 
 **Source:**
 ```html

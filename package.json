@@ -1,6 +1,6 @@
 {
-  "name": "luna-ui",
-  "version": "1.0.0",
+  "name": "lunasphere-ui",
+  "version": "0.1.0",
   "description": "The LunaSphere UI CSS and WebComponent Library.",
   "main": "index.js",
   "scripts": {
