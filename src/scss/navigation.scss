@@ -22,7 +22,6 @@
 }
 
 .nav-item {
-  padding: 20px 30px;
   margin: 0 8px;
   text-align: center;
 
@@ -32,6 +31,10 @@
   align-self: center;
 
   color: $luna-light;
+
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
 
   &:hover {
     background-color: $luna-dark-1;
@@ -46,18 +49,25 @@
   }
 
   > .nav-link {
-    display: inline-block;
     transform: skewX(25deg);
+
+    text-decoration: none;
 
     color: inherit;
 
     font-size: 1.1em;
+    padding: 20px 30px;
+
   }
 }
 
 .nav-logo {
   padding-left: 40px; padding-right: 40px;
   margin: 0 5px;
+
+  > img {
+    transform: skew(25deg) !important;
+  }
 
   &:hover {
     //background-color: $luna-dark-1;
