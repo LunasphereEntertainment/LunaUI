@@ -67,18 +67,35 @@ Button styles are once again heavily inspired by Bootstrap, with classes for a v
 
 All "btn btn-xxx" items will receive a box shadow as well as the standard text effects to add that extra pop on their glows. 
 
+#### Filled Style
+
 **Preview:**
 
-<img src="https://raw.githubusercontent.com/LunasphereEntertainment/LunaUI/main/examples/screenshots/buttons.png">
+<img src="https://raw.githubusercontent.com/LunasphereEntertainment/LunaUI/main/examples/screenshots/buttons_fill.png">
 
 **Source:** 
 ```html
-<button class="btn btn-primary text-light">Primary</button>
-<button class="btn text-light">Default</button>
-<button class="btn-light text-dark">Light</button>
-<button class="btn-success text-light">Success</button>
-<button class="btn btn-warning text-light">Warning</button>
-<button class="btn-danger text-light">Danger</button>
+<button class="btn-fill primary text-light">Primary</button>
+<button class="btn-fill">Default</button>
+<button class="btn-fill light">Light</button>
+<button class="btn-fill success text-light">Success</button>
+<button class="btn-fill warning text-light">Warning</button>
+<button class="btn-fill danger text-light">Danger</button>
+```
+
+#### Outline Style
+**Preview:**
+
+<img src="https://raw.githubusercontent.com/LunasphereEntertainment/LunaUI/main/examples/screenshots/buttons_outline.png">
+
+**Source:**
+```html
+<button class="btn-outline primary text-light">Primary</button>
+<button class="btn-outline">Default</button>
+<button class="btn-outline light">Light</button>
+<button class="btn-outline success text-light">Success</button>
+<button class="btn-outline warning text-light">Warning</button>
+<button class="btn-outline danger text-light">Danger</button>
 ```
 
 ### 4. Progress Bars
