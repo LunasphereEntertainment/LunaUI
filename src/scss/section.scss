@@ -11,7 +11,7 @@ section, .section {
     color: $luna-light;
 
     font-size: 9pt;
-    height: 15px;
+    height: 22px;
 
     //margin: -5px -8px;
     margin: 0;
@@ -19,6 +19,9 @@ section, .section {
     border-radius: 0;
 
     transition: background-color .25s;
+
+    display: flex;
+    align-items: center;
 
     &:hover {
       background: $luna-primary-2;

@@ -57,31 +57,29 @@
 <p>This is a paragraph.</p>
 <small>This is a small.</small>
 
-<h2>Button Style Grid</h2>
+<h2>Buttons</h2>
+
+<h3>Filled</h3>
 <div class="grid">
-    <button class="btn btn-primary text-light">Primary</button>
-    <button class="btn text-light">Default</button>
-    <button class="btn-light text-dark">Light</button>
-    <button class="btn-success text-light">Success</button>
-    <button class="btn btn-warning text-light">Warning</button>
-    <button class="btn-danger text-light">Danger</button>
+    <button class="btn-fill primary text-light">Primary</button>
+    <button class="btn-fill">Default</button>
+    <button class="btn-fill light">Light</button>
+    <button class="btn-fill success">Success</button>
+    <button class="btn-fill warning text-light">Warning</button>
+    <button class="btn-fill danger text-light">Danger</button>
+</div>
+
+<h3>Outline</h3>
+<div class="grid">
+    <button class="btn-outline primary text-light">Primary</button>
+    <button class="btn-outline">Default</button>
+    <button class="btn-outline light">Light</button>
+    <button class="btn-outline success">Success</button>
+    <button class="btn-outline warning text-light">Warning</button>
+    <button class="btn-outline danger text-light">Danger</button>
 </div>
 
 <h2>Forms</h2>
-
-<!--<div class="form-container" style="width: 400px;">
-    <h3>Create an Account</h3>
-    <p class="text-light">Welcome to LunaSphere, enter your new account details below to get started.</p>
-    <form style="text-align: center;">
-        <input type="email" class="input-control" placeholder="Email" />
-        <input type="text" class="input-control valid" placeholder="Username" />
-        <input type="password" class="input-control" placeholder="Password" />
-        <input type="email" class="input-control" placeholder="Email" />
-        <br><br>
-        <button class="btn btn-primary btn-block">Login</button>
-        <a style="margin: 0 auto;" href="https://google.co.uk" target="_blank">Open me</a>
-    </form>
-</div>-->
 
 <div class="section" style="width: 400px;">
     <div class="title">
@@ -91,8 +89,10 @@
         <form>
             <div class="form-group">
                 <input type="email" class="input-control" placeholder="Email"/>
-                <div class="form-group-append bg-danger">
-                    <span class="fas fa-times"></span>
+                <div class="form-group-append">
+                    <button class="btn-inline btn-outline light" type="button">
+                        <span class="fas fa-times"></span>
+                    </button>
                 </div>
             </div>
             <input type="text" class="input-control valid" placeholder="Username"/>
@@ -115,7 +115,7 @@
             </div>
 
             <br><br>
-            <button class="btn btn-primary btn-block">Login</button>
+            <button class="btn-fill primary btn-block">Login</button>
             <a style="margin: 0 auto;" href="https://google.co.uk" target="_blank">Open me</a>
         </form>
     </div>
@@ -153,34 +153,34 @@
 
 
 <h2>Icon Buttons</h2>
-<button class="btn-icon bg-primary">
+<button class="btn-icon btn-fill primary">
     <span class="fas fa-plus-circle"></span>
 </button>
 <br>
 <br>
 
 <div class="grid" style="width: 250px;">
-    <button class="btn-icon-lg btn-primary">
+    <button class="btn-icon-lg btn-fill primary">
         <span class="fas fa-rocket fa-2x"></span>
     </button>
 
-    <button class="btn-icon-lg">
+    <button class="btn-icon-lg btn-fill">
         <span class="fas fa-paint-brush fa-2x"></span>
     </button>
 
-    <button class="btn-icon-lg btn-light">
+    <button class="btn-icon-lg btn-fill light">
         <span class="fas fa-chart-simple fa-2x"></span>
     </button>
 
-    <button class="btn-icon-lg btn-success">
+    <button class="btn-icon-lg btn-fill success">
         <span class="fas fa-phone-square fa-2x"></span>
     </button>
 
-    <button class="btn-icon-lg btn-warning">
+    <button class="btn-icon-lg btn-fill warning">
         <span class="fas fa-basketball fa-2x"></span>
     </button>
 
-    <button class="btn-icon-lg btn-danger">
+    <button class="btn-icon-lg btn-fill danger">
         <span class="fas fa-bath fa-2x"></span>
     </button>
 </div>
@@ -202,7 +202,18 @@
 <div class="form-container" style="width: 300px;">
     <p>Make some choices below:</p>
     <form style="text-align: left">
-
+        <div class="form-check">
+            <input type="checkbox" id="acceptCheck2"/>
+            <label for="acceptCheck2">I accept all responsibilities</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" id="acceptVerify2"/>
+            <label for="acceptVerify2">I affirm this acceptance</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" id="lazyVerify2"/>
+            <label for="lazyVerify2">I'm lazy</label>
+        </div>
     </form>
     <br>
     <button class="btn btn-block btn-primary">
@@ -222,8 +233,8 @@
         <small>whoa there, and here</small>
     </div>
     <div class="footer">
-        <button class="btn btn-danger btn-sm">Cancel</button>
-        <button class="btn btn-primary btn-sm float-right">Let's Go!</button>
+        <button class="btn-fill danger btn-sm">Cancel</button>
+        <button class="btn-fill primary btn-sm float-right">Let's Go!</button>
     </div>
 </div>
 

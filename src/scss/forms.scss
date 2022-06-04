@@ -19,15 +19,6 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
 
     transition: background-color .5s, padding-top .25s, padding-bottom .25s;
 
-    &:focus, &:active {
-        background: $luna-dark-2;
-
-        padding: 10px 10px;
-
-        outline: 1px solid $luna-primary-1;
-    }
-
-
     &::placeholder {
         color: $luna-dark-3;
     }
@@ -38,6 +29,14 @@ input[type="text"], input[type="password"], input[type="email"], input[type="num
 
     &.success, &.valid {
         outline: 1px solid $luna-success-2;
+    }
+
+    &:focus, &:active {
+        background: $luna-dark-2;
+
+        padding: 12px 10px;
+
+        outline: 1px solid $luna-primary-1;
     }
 }
 
@@ -100,9 +99,8 @@ div.form-group {
     > .form-group-append {
         align-self: stretch;
 
-        display: grid;
-        place-items: center;
-
-        padding: 0 6px;
+        display: flex;
+        justify-content: stretch;
+        align-items: stretch;
     }
 }
